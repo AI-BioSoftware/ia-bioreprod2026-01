@@ -11,6 +11,11 @@ version = "0.1.0"
 python = ">=3.14.6,<3.15"
 pandas = ">=3.0.3,<4"
 requests = ">=2.34.2,<3"
+click = ">=8.4.1,<9"
+matplotlib = ">=3.10.9,<4"
+numpy = ">=2.4.6,<3"
+openpyxl = ">=3.1.5,<4"
+loguru = ">=0.7.3,<0.8"
 
 [feature.dev.dependencies]
 ruff = "*"
