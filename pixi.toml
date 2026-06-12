@@ -1,5 +1,5 @@
 [workspace]
-authors = ["essmaw <essmay.touami@etu.u-paris.fr>"]
+authors = ["essmaw <essmay.touami@etu.u-paris.fr>", "KarinDuong <karine.duong@univ-evry.fr>"]
 channels = ["conda-forge"]
 name = "IA-BioSoftware-Workshop"
 platforms = ["osx-arm64"]
