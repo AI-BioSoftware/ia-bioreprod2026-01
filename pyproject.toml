@@ -1,8 +1,8 @@
 [project]
-name = ""
+name = "ia-bioreprod2026-01"
 version = "0.1.0"
 description = "Description courte du script"
-authors = [{ name = "Prénom Nom", email = "email@exemple.fr" }]
+authors = [{ name = "Essmay Touami", email = "email@exemple.fr" }, { name = "Karine Duong", email = "email@exemple.fr" }]
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"
@@ -18,3 +18,11 @@ ignore = ["D203", "D212"]
 
 [tool.ruff.lint.pydocstyle]
 convention = "numpy"
+
+[tool.pyright]
+pythonVersion = "3.10"
+typeCheckingMode = "basic"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=. --cov-report=term-missing --cov-report=xml"
