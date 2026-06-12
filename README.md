@@ -53,11 +53,11 @@ Dans cet atelier, nous explorerons comment l’intelligence artificielle peut de
 
 Cet atelier a pour but de montrer comment l’IA peut accompagner les bioinformaticien·nes dans leurs projets de scripting et d’analyse, en réduisant le temps passé à déboguer et en augmentant la qualité du code produit.
 
-## Objectif du projet 
+## Objectif du projet
 
 Ce dépôt est organisé autour de **deux travaux pratiques complémentaires**, un TP **Python** et un TP **R**.
 
-L’objectif est de partir d’un **article scientifique** et des **données associées**, puis d’utiliser une IA générative pour produire un script capable de **recréer la figure 2A de l’article**.
+L’objectif est de partir d’un **[article scientifique](10.1371/journal.pgen.1006453)** et des **données associées**, puis d’utiliser une IA générative pour produire un script capable de **recréer la figure 2A de l’article**.
 
 Pour ce projet, les fichiers fournis dans le dossier `/data` sont :
 
